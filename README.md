@@ -1,0 +1,2 @@
+# nuxt-web
+StudyPath Website
