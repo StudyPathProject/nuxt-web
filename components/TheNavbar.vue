@@ -15,11 +15,7 @@
 
         <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
           <div class="flex flex-shrink-0 items-center">
-            <img class="h-8 w-auto" src="/img/logo.png" alt="Your Company" />
-            <NuxtLink to="/" class="pl-2 capitalize">
-              <span class="text-white pr-1 font-bold">STUDY</span>
-              <span class="text-[#3D5B89] font-bold">PATH</span>
-            </NuxtLink>
+            <CommonBrand :logo="true" />
           </div>
           <div class="hidden sm:ml-6 sm:block">
             <div class="flex space-x-4">
