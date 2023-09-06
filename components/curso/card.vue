@@ -23,7 +23,7 @@ export default {
 <template> 
     <div class="card flex-1 min-w-[250px] h-fit bg-gray-200 px-0 mix-h-42 shadow-x mt-10">
         <figure class="max-h-[150px] object-cover w-full px-0">
-            <img src="img/curso-ejemplo.png" class="h-full w-full" alt="Curso" />
+            <img src="/img/curso-ejemplo.png" class="h-full w-full" alt="Curso" />
         </figure>
 
         <div class="card-body">
