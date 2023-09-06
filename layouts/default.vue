@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="w-full justify-between bg-white">
     <TheNavbar />
     <slot />
     <TheFooter />

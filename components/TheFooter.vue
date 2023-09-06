@@ -1,10 +1,10 @@
 <template>
-  <div class="w-full bg-[#26B89B] flex">
-    <div class="w-11/12 mx-auto pt-12 ">
+  <div class="w-full bg-[#26B89B] flex text-white">
+    <div class="w-11/12 mx-auto pt-12">
       <div class="w-full flex flex-direction-col">
         <div class="left flex-1">
           <CommonBrand :logo="false" size="text-2xl" />
-          <p>Una nueva forma de aprender.</p>
+          <p class="">Una nueva forma de aprender.</p>
 
           <div class="flex mt-3">
             <div v-for="red in redes" :key="red.svg">
@@ -25,7 +25,7 @@
         </div>
       </div>
   
-      <div class="copy mt-10 pb-10 pt-6 w-full border-t-[0.2px] border-emerald-600">
+      <div class="copy mt-10 pb-10 pt-6 w-full border-t-[0.2px] border-emerald-300">
         <p class="mx-auto w-fit">&copy; {{ new Date().getFullYear() }} StudyPath. All rights reserved.</p>
       </div>
     </div>
