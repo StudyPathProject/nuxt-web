@@ -8,7 +8,7 @@ export default defineNuxtConfig({
   ui: {
     global: true,
   },
-  theme: "ligth"
+  // theme: "light"
   //   colors: {
   //     primary: "#ff0000",
   //     main: "#3D5B89",
