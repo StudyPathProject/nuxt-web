@@ -1,5 +1,5 @@
 # StudyPath Website - Nuxt 3 Minimal Starter
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/fd1491c1-8bee-44e5-96fe-d73b56ed6d8f/deploy-status)](https://app.netlify.com/sites/timely-quokka-a624fd/deploys)
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
 ## Setup
