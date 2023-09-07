@@ -5,9 +5,24 @@ export default defineNuxtConfig({
   typescript: {
     shim: false,
   },
+  app: {
+    head: {
+      title: "StudyPath Online",
+      meta: [{ name: "description", content: "Una nueva forma de aprender." }],
+      // link: [
+      //   {
+      //     rel: "stylesheet",
+      //     href: "https://fonts.googleapis.com/icon?family=Material+Icons",
+      //   },
+      // ],
+    },
+  },
   ui: {
     global: true,
   },
+  // runtimeConfig: {
+  //   currencyKey: process.env.CURRENCY_API_KEY,
+  // },
   // theme: "light"
   //   colors: {
   //     primary: "#ff0000",
